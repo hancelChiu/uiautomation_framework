@@ -1,0 +1,16 @@
+2020-08-07 11:42:51,560 - INFO - 打开的用例数据文件为F:\Python\uiautomation_framework/data/data.xlsx
+2020-08-07 11:42:51,566 - INFO - 选择的浏览器为 Firefox
+2020-08-07 11:42:51,566 - INFO - 打开的URL为：https://www.baidu.com/
+2020-08-07 11:43:00,644 - INFO - 启动火狐浏览器
+2020-08-07 11:43:03,584 - INFO - 设置5秒隐式等待时间
+2020-08-07 11:43:03,585 - INFO - 清空文本框内容kw
+2020-08-07 11:43:04,745 - INFO - 输入内容python
+2020-08-07 11:43:11,526 - INFO - 页面已截图，截图的路径在:F:\Python\uiautomation_framework/screenshots/
+2020-08-07 11:43:12,121 - INFO - 选择的浏览器为 Firefox
+2020-08-07 11:43:12,121 - INFO - 打开的URL为：https://www.baidu.com/
+2020-08-07 11:43:20,214 - INFO - 启动火狐浏览器
+2020-08-07 11:43:22,295 - INFO - 设置5秒隐式等待时间
+2020-08-07 11:43:22,295 - INFO - 清空文本框内容kw
+2020-08-07 11:43:23,415 - INFO - 输入内容selenium
+2020-08-07 11:43:30,365 - INFO - 页面已截图，截图的路径在:F:\Python\uiautomation_framework/screenshots/
+2020-08-07 11:43:32,044 - INFO - 邮件发送成功！！！
