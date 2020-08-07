@@ -65,9 +65,11 @@ logs：
 --log：生成的日志文件
 
 pageobjects:
+
 --页面对象：存放各页面中的元素及操作
 
 screenshots:
+
 --png：存放页面截图
 
 test_report:
@@ -77,6 +79,10 @@ test_report:
 testsuites:
 
 --test*.py：存放测试用例
+
+tools:
+
+--driver.exe：存放浏览器驱动
 
 getpathInfo.py：获取项目绝对路径
 
