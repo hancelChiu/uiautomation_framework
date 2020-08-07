@@ -32,9 +32,55 @@ Chromedriver(Chrome):https://sites.google.com/a/chromium.org/chromedriver/home
 
 IEDriverServer(IE):http://selenium-release.storage.googleapis.com/index.html
 
-operadriver(Opera):https://github.com/operasoftware/operachromiumdriver/releases
-
 MicrosoftWebDriver(Edge):https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver
+
+#### 目录结构介绍
+
+config:
+
+--config.ini：数据库、邮箱、接口等的配置项，用于方便的调用读取。
+
+data:
+
+--data.xlsx：存放测试数据
+
+framework：
+
+--base_page.py：这个文件主要编写数据库连接池的相关内容，本项目暂未考虑使用数据库来存储读取数据，此文件可忽略，或者不创建。本人是留着以后如果有相关操作时，方便使用。
+
+--browser_driver.py：这个文件主要来通过get、post、put、delete等方法来进行http请求，并拿到请求响应。
+
+--HTMLTestRunner.py：主要是生成测试报告相关
+
+--logger.py：调用该类的方法，用来打印生成日志
+
+--read_config.py：调用该类的方法，用于读取配置文件
+
+--read_excel：调用该类的方法，用于读取测试用例数据
+
+--send_email.py：这个文件主要是配置发送邮件的主题、正文等，将测试报告发送并抄送到相关人邮箱的逻辑。
+
+logs：
+
+--log：生成的日志文件
+
+pageobjects:
+--页面对象：存放各页面中的元素及操作
+
+screenshots:
+--png：存放页面截图
+
+test_report:
+
+--report.html：生成的测试报告
+
+testsuites:
+
+--test*.py：存放测试用例
+
+getpathInfo.py：获取项目绝对路径
+
+run.py：开始执行自动化，项目工程部署完毕后直接运行该文件即可
 
 #### 定位元素方式：
 
