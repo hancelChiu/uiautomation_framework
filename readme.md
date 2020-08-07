@@ -46,9 +46,9 @@ data:
 
 framework：
 
---base_page.py：这个文件主要编写数据库连接池的相关内容，本项目暂未考虑使用数据库来存储读取数据，此文件可忽略，或者不创建。本人是留着以后如果有相关操作时，方便使用。
+--base_page.py：封装基类，二次封装了定位元素的方法和常见的动作方法
 
---browser_driver.py：这个文件主要来通过get、post、put、delete等方法来进行http请求，并拿到请求响应。
+--browser_driver.py：封装了打开浏览器的方法，返回一个浏览器对象
 
 --HTMLTestRunner.py：主要是生成测试报告相关
 
